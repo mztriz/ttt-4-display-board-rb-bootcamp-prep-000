@@ -8,7 +8,7 @@ def display_board(board=default_board)
   puts hori_row
   puts vert_row[6..10].join.to_s
   puts hori_row
-  puts vert_row_end[10..14].join.to_s
+  puts vert_row[10..14].join.to_s
   puts board
 end
 
