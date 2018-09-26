@@ -18,8 +18,8 @@ def display_board(board=default_board)
   
   # end
   if (check_places(board[6..8]))
-  puts vert_row[10..14].join.to_s
-  
+    puts vert_row[10..14].join.to_s
+  end
   
 end
 
