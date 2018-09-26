@@ -6,6 +6,7 @@ def display_board(board=default_board)
   
   
   puts vert_row[0].join.to_s
+  hori_row = "-----------"
   
   =begin
   # top
