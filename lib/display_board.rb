@@ -1,9 +1,7 @@
 default_board = Array.new(9," ")
 
 def display_board(board=default_board)
-  vert_row_top = ["  "," | ", " ", " | ", "  "]
-  vert_row_mid = ["  "," | ", " ", " | ", "  "]
-  vert_row_end = ["  "," | ", " ", " | ", "  "]
+  vert_row = ["  "," | ", " ", " | ", "  ","  "," | ", " ", " | ", "  ","  "," | ", " ", " | ", "  "]
   hori_row = "-----------"
   
   puts vert_row_top.join.to_s
