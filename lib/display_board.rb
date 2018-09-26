@@ -4,12 +4,18 @@ def display_board(board=default_board)
   vert_row = ["  "," | ", " ", " | ", "  ","  "," | ", " ", " | ", "  ","  "," | ", " ", " | ", "  "]
   hori_row = "-----------"
   
+  # top
   puts vert_row[0..5].join.to_s
   puts hori_row
+  
+  # mid
   puts vert_row[5..10].join.to_s
   puts hori_row
+  
+  # end
   puts vert_row[10..14].join.to_s
-  puts board
+  
+  
 end
 
 display_board(["X", "O", "X", "O", "X", "X", "O", "X", "O"])
