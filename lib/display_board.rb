@@ -20,4 +20,4 @@ def display_board(board=default_board)
   
 end
 
-display_board
+display_board(board)
