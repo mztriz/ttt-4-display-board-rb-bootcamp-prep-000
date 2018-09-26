@@ -7,4 +7,4 @@ def display_board(board=default_board)
   puts board
 end
 
-display_board()
+display_board(default_board)
