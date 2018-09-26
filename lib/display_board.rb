@@ -5,8 +5,10 @@ def display_board(board=default_board)
   hori_row = "-----------"
   
   # top
-  puts vert_row[0..5].join.to_s
-  puts hori_row
+  if (board[0..2].inspect.each.equal? " ")
+    puts vert_row[0..5].join.to_s
+    puts hori_row
+  end
   
   # mid
   puts vert_row[5..10].join.to_s
