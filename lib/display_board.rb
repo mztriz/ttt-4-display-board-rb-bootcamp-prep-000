@@ -6,19 +6,19 @@ def display_board(board=default_board)
 
   # top
   if (check_places(board[0..2]))
-    puts vert_row[0..5].join.to_s
+    puts vert_row[0].join.to_s
     puts hori_row
   end
   
   # mid
   if (check_places(board[3..5]))
-    puts vert_row[5..10].join.to_s
+    puts vert_row[2].join.to_s
     puts hori_row
   end
   
   # end
   if (check_places(board[6..8]))
-    puts vert_row[10..14].join.to_s
+    puts vert_row[3].join.to_s
   end
   
 end
