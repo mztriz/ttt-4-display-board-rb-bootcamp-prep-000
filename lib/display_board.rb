@@ -24,7 +24,7 @@ def display_board(board=default_board)
 end
 
 def check_places(row)
-   if (row.each { |e|.to_s equal? " " })
+   if (row.each { |e| e.equal? " " })
      return true
    end
 end
