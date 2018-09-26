@@ -3,7 +3,7 @@ default_board = Array.new(9," ")
 def display_board(board=default_board)
   vert_row = ["  "," | ", " ", " | ", "  ","  "," | ", " ", " | ", "  ","  "," | ", " ", " | ", "  "]
   hori_row = "-----------"
-  
+
   # top
   if (check_places(board[0..2]))
     puts vert_row[0..5].join.to_s
