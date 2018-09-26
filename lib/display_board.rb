@@ -5,7 +5,7 @@ def display_board(board=default_board)
   hori_row = "-----------"
   
   # top
-  if (board[0..2].each.equal? " ")
+  if (board[0..2].each { |e| equal? " ") }
     puts vert_row[0..5].join.to_s
     puts hori_row
   end
