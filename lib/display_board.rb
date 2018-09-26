@@ -21,6 +21,9 @@ def display_board(board=default_board)
 end
 
 def check_places(row)
+   if (row.each { |e| equal? " " })
+     return true
+   end
 end
 
 display_board([" ", " ", " ", "O", "X", "X", "O", "X", "O"])
