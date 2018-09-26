@@ -6,3 +6,5 @@ def display_board(board=default_board)
   print vert_row
   puts board
 end
+
+display_board
