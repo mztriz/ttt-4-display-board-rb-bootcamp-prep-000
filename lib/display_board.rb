@@ -21,9 +21,7 @@ def display_board(board=default_board)
     puts vert_row[3].join.to_s
   end
   =end
-  
   puts vert_row[0]
-  
 end
 
 def check_places(row)
