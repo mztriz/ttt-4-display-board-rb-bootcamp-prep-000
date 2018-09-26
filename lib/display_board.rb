@@ -4,6 +4,7 @@ def display_board(board=default_board)
   vert_row = [" ","|", " ", "|", " "]
   hori_row = "-----------"
   puts vert_row.join.to_s
+  puts hori_row
   puts board
 end
 
