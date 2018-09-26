@@ -20,4 +20,7 @@ def display_board(board=default_board)
   
 end
 
+def check_places(row)
+end
+
 display_board([" ", " ", " ", "O", "X", "X", "O", "X", "O"])
